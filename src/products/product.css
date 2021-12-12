@@ -1,0 +1,190 @@
+.card {
+	height: 400px;
+	width: 280px;
+}
+
+.container-products {
+	position: relative;
+	padding: 2.5rem;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.card-img-top {
+	padding: 30px;
+}
+
+.search-cont {
+	margin-top: 50px;
+	padding: 0 8rem;
+
+	width: 100%;
+}
+
+.more {
+	display: flex;
+	padding: 0 0 2rem 0;
+	width: 100%;
+	justify-content: center;
+}
+
+.products-cart {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.cart {
+	position: relative;
+	width: 50%;
+	height: 85vh;
+	margin-top: 25px;
+	position: sticky;
+	border: 1px solid #eee;
+	background-color: #f3f3f3;
+	top: 90px;
+	right: 130px;
+	border-radius: 8px;
+}
+
+.price {
+	color: var(--green);
+	font-weight: 500;
+}
+
+.quantity {
+	font-weight: 350;
+}
+
+.empty {
+	padding: 30% 20%;
+}
+
+.delete {
+	font-size: 32px;
+	font-weight: 100;
+	color: rgb(223, 35, 35);
+	position: absolute;
+	right: 10px;
+	top: 20px;
+	cursor: pointer;
+}
+
+.card-title {
+	cursor: pointer;
+}
+
+.cart-top {
+	padding: 1rem 1.5rem;
+}
+
+.cart-body {
+	height: 98%;
+	background-color: #fff;
+}
+.cart-footer {
+	border-top: 1px solid #eee;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	background-color: #f3f3f3 !important;
+	padding: 1rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.actions {
+	padding: 0;
+	margin: 0;
+
+	width: 25px;
+	background-color: #eee;
+	text-align: center;
+	border-radius: 20px;
+	font-weight: 600;
+	margin: 10px;
+}
+.item-details {
+	margin: 10px;
+}
+
+.item {
+	border: 1px solid #eee;
+	position: relative;
+}
+
+.action {
+	width: 25px;
+	background-color: transparent !important;
+	border: none;
+	font-weight: 600;
+}
+
+.title {
+	font-weight: 700;
+}
+
+.checkout {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: var(--blue);
+	font-weight: 700;
+	border: 2px solid var(--blue);
+	border-radius: 30px;
+	height: 50px;
+	padding: 1px;
+	padding-left: 20px;
+	cursor: pointer;
+}
+
+.checkbtn {
+	padding: 1px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	border-radius: 30px;
+	background-color: var(--blue);
+	color: #fff;
+	padding: 0.2rem 1rem;
+}
+
+.filterbar {
+	display: flex;
+	justify-content: space-between;
+	background-color: #f1f1f1;
+	border-radius: 10px;
+	padding: 1.5rem 1rem;
+}
+
+.search-cont .form-control {
+	width: 400px;
+}
+
+.card-footer {
+	background-color: #fefefe;
+	border-top: 1px solid #eee;
+}
+
+.fluid {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.fluid span:first-child {
+	font-weight: 600;
+	color: var(--blue);
+}
+
+.card {
+	margin: 20px;
+	border: none;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+}
